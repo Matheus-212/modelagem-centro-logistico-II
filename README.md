@@ -145,7 +145,7 @@ O SQL também contém validações para quantidades positivas, valores monetári
 
 ### 1.1.8 Revisão do DER conceitual
 
-![Diagrama Entidade-Relacionamento conceitual da JV Indústria](docs/der.pdf)
+![Diagrama Entidade-Relacionamento conceitual da JV Indústria](docs/der.jpg)
 
 | Elemento de modelagem | Representação no modelo implementado | Justificativa |
 |---|---|---|
@@ -281,13 +281,13 @@ O modelo lógico traduz as entidades e os relacionamentos da modelagem conceitua
 | Suprimentos | `materia_prima`, `fornecedor`, `comprar_materia` |
 | Estoque e logística | `estoque`, `lote`, `movimento_estoque`, `veiculo`, `entrega` |
 
-A descrição das chaves encontra-se na seção **1.3** e as restrições de integridade na seção **1.5**. O arquivo [der_conceitual.png](der_conceitual.png) corresponde ao diagrama conceitual da primeira entrega; a representação visual do **modelo lógico na notação brModelo** constitui um artefato distinto, com tabelas, colunas, tipos, PKs, FKs e cardinalidades.
+A descrição das chaves encontra-se na seção **1.3** e as restrições de integridade na seção **1.5**. O arquivo [der.jpg](docs/der.jpg) corresponde ao diagrama conceitual da primeira entrega; a representação visual do **modelo lógico na notação brModelo** constitui um artefato distinto, com tabelas, colunas, tipos, PKs, FKs e cardinalidades.
 
 ---
 
 # 3. Script SQL Completo
 
-**Arquivo da implementação da Entrega 2:** [script (1).sql](script%20%281%29.sql)
+**Arquivo da implementação da Entrega 2:** [script.sql](docs/script.sql)
 
 O banco de dados foi estruturado para **MySQL 8.0.16 ou superior**. O arquivo contempla **20 tabelas**, **23 chaves estrangeiras** e **31 restrições `CHECK`**, além de chaves primárias, valores padrão e restrições de unicidade. Os dados utilizados nas instruções `INSERT` são fictícios.
 
@@ -379,14 +379,12 @@ O repositório constitui o meio de entrega do projeto, tendo como documento prin
 | Artefato | Finalidade |
 |---|---|
 | `README.md` | Relatório técnico da Entrega 2. |
-| `der.pdf` | Modelo conceitual utilizado na primeira etapa. |
-| `imagens/der_conceitual.png` | Imagem do DER conceitual apresentada na seção 1.1.8. |
-| `imagens/fachada_jv_industria.jpeg` | Registro fotográfico da organização apresentado na seção 1.1.1. |
-| Modelo lógico relacional | Diagrama visual com tabelas, tipos, PKs, FKs e cardinalidades, na notação solicitada. |
-| Dicionário de dados | Descrição de atributos, tipos, chaves, obrigatoriedade, unicidade, valores permitidos e valores padrão. |
+| `docs/der.jpg` | Imagem do DER conceitual apresentada na seção 1.1.8. |
+| `levantamentos/fachada_jv_industria.jpeg` | Registro fotográfico da organização apresentado na seção 1.1.1. |
+|`docs/modelo_logico.jpg `| Diagrama visual com tabelas, tipos, PKs, FKs e cardinalidades, na notação solicitada. |
+| `docs/dicionario.html` | Descrição de atributos, tipos, chaves, obrigatoriedade, unicidade, valores permitidos e valores padrão. |
 | `levantamento/levantamento.md` | Relato organizado da entrevista, separado da documentação de implementação. |
-| Outras evidências em JPG/PNG | Registros adicionais da visita e da entrevista no local, quando disponíveis. |
-| `script (1).sql` | Implementação MySQL e massa de dados fictícios utilizada neste relatório. |
+| `docs/script.sql` | Implementação MySQL e massa de dados fictícios utilizada neste relatório. |
 | Apresentação final | Síntese executiva do problema, solução, implementação e resultados gerenciais. |
 
 O dicionário de dados é exigido em **um único arquivo HTML**, exceto para turmas de **GTI**, nas quais o formato previsto é **um único arquivo Markdown**. O histórico de *commits* do GitHub documenta a evolução e a colaboração dos integrantes do grupo.
