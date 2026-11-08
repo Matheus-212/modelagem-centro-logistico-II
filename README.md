@@ -453,8 +453,6 @@ Ferramentas de inteligência artificial generativa foram utilizadas como apoio �
 
 # 7. Apresentação Corporativa Final
 
-A apresentação executiva está estruturada como um **pitch de 8 minutos**, seguido pela defesa oral do modelo lógico, conforme os critérios da disciplina.
-
 | Etapa | Tempo previsto | Conteúdo |
 |---|---:|---|
 | **1. O problema da organização** | 1 min | Porte da JV Indústria e necessidades P1–P6 relacionadas à produção, estoque, prazos e gestão. |
