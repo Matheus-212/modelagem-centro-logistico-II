@@ -145,7 +145,7 @@ O SQL também contém validações para quantidades positivas, valores monetári
 
 ### 1.1.8 Revisão do DER conceitual
 
-![Diagrama Entidade-Relacionamento conceitual da JV Indústria](levantamento/der_conceitual.png)
+![Diagrama Entidade-Relacionamento conceitual da JV Indústria](docs/der.pdf)
 
 | Elemento de modelagem | Representação no modelo implementado | Justificativa |
 |---|---|---|
